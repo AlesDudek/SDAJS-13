@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css" class="stylesheel">
+    <title>HomeWork advanced CSS</title>
+    <link rel="stylesheet" href="styles/cards.css" class="stylesheel">
+    <link rel="stylesheet" href="styles/button.css">
+    <script src="./js/button.js"></script>
 </head>
-<body>
-    <div class="circle"></div>
 
-    <div class="shadow"></div>
+<body>
+    <div class="container-card">
+        <div class="card-fix">
+            <header class="header-fix">
+                <p>Fixed</p>
+            </header>
+            <div class="columns-fix">
+                <div class="card-ff">
+
+                    <div class="col-1"> 
+                        
+                        <img src="svg/css-3.svg" alt="CSS">
+                        <img src="./svg/html-1.svg" alt="HTML"></img>
+                         <span>What is HTML and CSS for me? </span>
+                    </div>
+                    <div class="col-2">
+                        <p>
+                            It's like swimming in a sea of information that has to be implemented into my website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer-fix">
+                <p>
+                    &copy; AylenS
+                </p>
+            </footer>
+        </div>
+
+        <div class="card-mov">
+            <header class="header-mov">
+                <p>Movable</p>
+            </header>
+            <div class="columns-mov">
+                <div class="card-ff">
+                    <div class="col-1"> 
+                        <img src="./svg/javascript-1.svg" alt="JS"></img>
+                        <p>
+                            JS is very complicated language.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <p>
+                            An absolute Spanish village. 
+                            JS knows interesting functions, but to understand them and above all to apply them is a superhuman task.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <footer class="footer-mov">
+                <p>
+                    &copy; AylenS
+                </p>
+            </footer>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="log">
+            <button class="button success" >Log in</button>
+        </div>
+    </div>
 </body>
+
 </html>
